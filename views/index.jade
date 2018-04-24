@@ -1,0 +1,16 @@
+doctype html
+html
+    head
+        title= title
+        link(rel='stylesheet', href='/stylesheets/style.css')
+    body
+        block content
+            h1= title
+            a(href='https://www.youtube.com/watch?v=B7URyqba8v8')
+                img(src='https://i.ytimg.com/vi/B7URyqba8v8/maxresdefault.jpg')
+
+            a(href="http://localhost:3247/about")
+                button(type="button") About
+        block footer
+            p.footer Houlala c'est ici le footer
+
